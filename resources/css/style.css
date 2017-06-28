@@ -1,0 +1,117 @@
+                      /*UNIVERSAL STYLING*/
+html,
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, 'sans-serif';
+}
+.container {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.site-container {
+  width: 960px;
+}
+.white-text {
+  color: white;
+}
+                      /*MAIN BANNER STYLING*/
+.main-banner {
+  background-image: url(../../resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+nav ul {
+  margin-right: 2rem;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+.brand {
+  margin-left: 2rem;
+}
+.logo {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+#overlap-container {
+  width: 1032px;
+  margin-top: 10rem;
+  justify-content: flex-end;
+}
+div.slogan {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+                                /*ICONS SECTION STYLING*/
+.icons {
+  justify-content: center;
+  margin: 3rem 0;
+}
+.icons div {
+  margin-right: 6rem;
+}
+.icons div img {
+  width: 3.5rem;
+}
+div.icons .column {
+  height: 8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+div.exams,
+div.fittings,
+div.delivery {
+  width: 5rem;
+}
+div.icons p {
+  text-align: center;
+}
+                                  /*ABOUT SECTION STYLING*/
+div.about {
+  justify-content: center;
+}
+section {
+  width: 35%;
+  margin-bottom: 5rem;
+}
+section h3 {
+  font-weight: bold;
+  background-color: cadetblue;
+  font-size: 1rem;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.philosophy {
+  margin-right: 5%;
+}
+                                  /*FOOTER SECTION STYLING*/
+footer {
+  background-color: azure;
+  margin: 0 auto;
+  padding: 4rem 0;
+  align-items: center;
+}
+.footer-logo {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 4rem;
+}
